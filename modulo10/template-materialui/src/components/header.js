@@ -11,7 +11,7 @@ function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
-          <Toolbar>
+          <Toolbar sx={{ backgroundColor: "black"}}>
             <IconButton
               size="large"
               edge="start"
@@ -23,8 +23,8 @@ function Header() {
               <MenuIcon />
               */}
             </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Gerenciamento de Projetos
+            <Typography variant="h5" component="div" sx={{ flexGrow: 1}}>
+              Controle de Projetos
             </Typography>
           </Toolbar>
         </AppBar>

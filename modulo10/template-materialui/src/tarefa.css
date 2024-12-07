@@ -1,0 +1,24 @@
+.MuiTypography-root {
+    text-align: center;
+  }
+  .MuiCardActions-root button{
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin: auto;
+  }
+  .MuiCardActions-root button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  .MuiGrid-root button{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  .MuiGrid-root button:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }

@@ -14,6 +14,7 @@ import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Modal from '@mui/material/Modal';
+import '../../tarefa.css'
 
 import CriarTarefa from './CriarTarefa';
 import EditarTarefa from './EditarTarefa';
@@ -113,7 +114,7 @@ const ListarTarefa = () => {
                       <TableCell component="th" scope="row">
                           {row.idTarefa}
                       </TableCell>
-                      <TableCell component="th" scope="row">
+                      <TableCell id="taskTitle" component="th" scope="row">
                           {row.tituloTarefa}
                       </TableCell>
                       <TableCell align="right">{row.descricaoTarefa}</TableCell>
@@ -165,5 +166,4 @@ const ListarTarefa = () => {
   </>    
  );
 };
- 
 export default ListarTarefa;
